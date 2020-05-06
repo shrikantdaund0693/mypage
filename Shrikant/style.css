@@ -1,7 +1,6 @@
 body{
-    background-color: cyan;
+    background-image: url(https://wallpaperaccess.com/full/228514.jpg);
 }
-
 #para{
     display: none;
 }
@@ -10,6 +9,7 @@ body{
     height: 500px;
     border: paleturquoise 2px solid;
     position: relative;
+    background-image: url(jumbotron_1200.jpg);
 }
 .navbar{
     border: solid 2px turquoise;
@@ -45,11 +45,14 @@ body{
     position: relative;
     height: 200px;
     background-color: darkgrey;
+    margin-bottom: 20px;
 }
+
 .address{
     box-sizing: border-box;
     width: 100%;
     font-weight: bold;
+    color: snow;
     font-family: sans-serif, Arial, Helvetica;
     font-size: 1.3em;
     text-shadow: mediumseagreen;
@@ -60,6 +63,19 @@ hr{
     color: black;
     margin-right: 0;
 
+}
+#order:hover{
+    opacity: 0.4;
+}
+
+
+@media (max-width:768px){
+    .jumbotron{
+        background-image: url(jumbotron_768.jpg);
+    }
+    .address{
+        color: yellowgreen;
+    }
 }
 
 
